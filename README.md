@@ -1,13 +1,13 @@
 # Kafka - Wikimedia stream to database
 
 # Create Multi Module project in Spring Boot
-1) Add '<packaging>pom</packaging>' on the parent pom.xml
+1) Add `<packaging>pom</packaging>` on the parent pom.xml
 2) Create new module in parent folder
 3) Delete Main.java in new module
 4) Review the new module reflect on the parent pom.xml
 5) Create SpringBootApplication in new module
 6) Test to run 'mvn clean install' whether successfully build
-7) Add '<packaging>jar</packaging>' on new module
+7) Add `<packaging>jar</packaging>` on new module
 
 # Project Overview
 - Stream live event data from Wikimedia (Server-Sent Events (SSE) endpoint)
